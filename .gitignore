@@ -1,7 +1,7 @@
 ### IntelliJ IDEA ###
 out/
-!src/main/out/
-!src/test/out/
+#!**/src/main/**/out/
+#!**/src/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -12,8 +12,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!src/main/bin/
-!src/test/bin/
+#!**/src/main/**/bin/
+#!**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -26,8 +26,4 @@ bin/
 .vscode/
 
 ### Mac OS ###
-.DS_Store
-
-# Asegurar que la carpeta src y su contenido se incluyan
-!src/
-!src/**/*
+.DS_Store 
